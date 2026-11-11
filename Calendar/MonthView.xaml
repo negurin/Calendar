@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Calendar.MonthView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Border x:Name="RootBorder"
+            BorderBrush="{DynamicResource MonthBorder}"
+            BorderThickness="1"
+            Margin="3"
+            Padding="4"
+            Background="{DynamicResource MonthBg}"
+            CornerRadius="4">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="MonthTitle" Grid.Row="0"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,4"/>
+            <Grid x:Name="DaysGrid" Grid.Row="1"/>
+        </Grid>
+    </Border>
+</UserControl>
