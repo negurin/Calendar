@@ -7,7 +7,7 @@
             Margin="3"
             Padding="4"
             Background="{DynamicResource MonthBg}"
-            CornerRadius="4">
+            CornerRadius="8">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
