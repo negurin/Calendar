@@ -27,7 +27,7 @@
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/ваш-username/simple-wpf-calendar.git
+   git clone https://github.com/negurin/Calendar.git
    ```
 
 2. Откройте файл решения (`.sln`) в Visual Studio 2022 или новее
